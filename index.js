@@ -23,3 +23,7 @@ kittens = ["Milo","Otis","Garfield"]
 function prependKitten(name6) {
   return [name6, ...kittens]
 }
+kittens = ["Milo","Otis","Garfield"]
+function removeLastKitten(name7) {
+  return
+}
