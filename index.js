@@ -21,6 +21,5 @@ function appendKitten(name5) {
 }
 kittens = ["Milo","Otis","Garfield"]
 function prependKitten(name6) {
-  kittens.slice(name6)
-  
+  return [name6, ...kittens]
 }
