@@ -17,7 +17,7 @@ function destructivelyRemoveFirstKitten(name4) {
 }
 kittens = ["Milo","Otis","Garfield"]
 function appendKitten(name5) {
-  kittens2 = kittens.concat(name5)
+  kittens=[...kittens, `${name5}`]
   return kittens2
 }
 kittens = ["Milo","Otis","Garfield"]
