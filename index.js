@@ -1,26 +1,26 @@
 var kittens = ["Milo","Otis","Garfield"]
 
-function destructivelyAppendKitten(name) {
-  kittens.push(name)
+function destructivelyAppendKitten(name1) {
+  kittens.push(name1)
 }
 
-function destructivelyPrependKitten(name) {
-  kittens.unshift(name)
+function destructivelyPrependKitten(name2) {
+  kittens.unshift(name2)
 }
 
-function destructivelyRemoveLastKitten(name) {
-  kittens.pop(name)
+function destructivelyRemoveLastKitten(name3) {
+  kittens.pop(name3)
 }
 
-function destructivelyRemoveFirstKitten(name) {
-  kittens.shift(name)
+function destructivelyRemoveFirstKitten(name4) {
+  kittens.shift(name4)
 }
 
-function appendKitten(name) {
-  kittens.concat(name)
+function appendKitten(name5) {
+  kittens.concat(name5)
 }
 
-function prependKitten(name) {
-  kittens.slice(name)
+function prependKitten(name6) {
+  kittens.slice(name6)
   
 }
